@@ -1,0 +1,165 @@
+.headerInput {
+    margin-top: 3rem !important;
+    width: 82.8% !important;
+    height: 100%;
+}
+.inputName {
+    display: flex;
+}
+.generalInput {
+    // height: 86.7%;
+    background: #f4f4f4;
+    padding-bottom: 32px;
+}
+
+.breadCrumbgeneral {
+    display: flex;
+    padding-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 2rem;
+}
+
+.text-class {
+    display: flex;
+}
+
+.heading {
+    font-size: 14px;
+    color: #565656;
+    letter-spacing: 0.16px;
+    padding-top: 1%;
+    padding-left: 2.2%;
+    font-weight: 600;
+}
+
+.Accordion-class {
+    // padding-top: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    .bx--accordion__content {
+        padding-right: 0.4%;
+        padding-left: 0.5rem;
+    } 
+    .bx--data-table thead {
+        th:first-of-type {
+            background-color: #ffffff;
+        }
+    }
+}
+
+.accordianAll {
+    display: "flex";
+    margin-bottom: 0.4%;
+    margin-left: auto;
+    color: #0f62fe;
+    margin-right: 2rem;
+    svg {
+        fill: #0f62fe !important;
+        padding-left: 3.3px;
+    }
+    .upArrow,.downArrow{
+        margin-left: 11px;
+    }
+}
+.generalDiv{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background: #ffffff;
+    padding-bottom: 1rem;
+
+    .heading {
+        margin-bottom: 2rem;
+    }
+
+    .headingStart {
+        background-color: #ffffff;
+    }
+
+    .iconRow {
+        // svg {
+        //     fill: #42BE65;
+        // }
+
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+        display: inline-block;
+        padding-top: 75% !important;
+    }
+
+    .labelrow {
+        width: 30%;
+        padding-top: 1rem;
+        padding-left: 0rem !important;
+
+        h6 {
+            font-size: 14px;
+            color: #000000;
+            letter-spacing: 0;
+            margin-bottom: 8px;
+        }
+
+        p {
+            font-size: 12px;
+            color: #161616;
+            letter-spacing: 0.32px;
+            line-height: 16px;
+
+            svg {
+                margin-right: 4px;
+                margin-bottom: -2px;
+            }
+        }
+
+        a {
+            font-size: 12px;
+        }
+
+    }
+
+    .bx--data-table-container {
+        width: auto !important;
+        margin-left: 4.9% !important;
+        margin-right: 9.5% !important;
+        margin-top: 0 !important;
+    }
+
+    tr {
+        background-color: #ffff;
+
+        td:last-of-type {
+            width: 16%;
+        }
+    }
+
+    .bx--data-table tbody tr:hover td,
+    .bx--data-table tbody tr:hover th {
+        background: #ffffff !important;
+    }
+
+    .bx--data-table tbody tr:hover {
+        background: #ffffff !important;
+    }
+
+    .nonEdtible-class {
+        text-align: left;
+    }
+}
+// // Table css
+.table-class {
+    td {
+        background-color: #ffffff !important;
+        border-bottom: none !important;
+        border-top: none !important;
+    }
+    .bx--data-table-container {
+        width: auto !important;
+        margin-left: 1.5rem !important;
+        margin-right: 2.5rem !important;
+        margin-top: 0 !important;
+    }
+
+   
+    
+}
+
+

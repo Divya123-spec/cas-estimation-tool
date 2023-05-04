@@ -1,0 +1,54 @@
+.warning-class {
+  svg {
+    fill: #ffbf00;
+  }
+  .bx--tooltip__trigger:hover svg {
+    fill: #ffbf00 !important;
+  }
+}
+
+.error-class {
+  svg {
+    fill: #da1e28;
+  }
+  .bx--tooltip__trigger:hover svg {
+    fill: #da1e28 !important;
+  }
+}
+.errorSumValidation {
+  color: #da1e28 !important;
+}
+.read-more-link {
+  cursor: pointer;
+}
+.expandAll {
+  cursor: pointer;
+}
+.collapseAll {
+  cursor: pointer;
+}
+
+.dropdown-label {
+  .bx--data-table td {
+    padding-left: 0rem !important;
+    font-weight: 700;
+  }
+}
+.dropdown-label {
+ 
+    font-weight: 700;
+  
+}
+.AiopsTable{
+  .bx--text-input-wrapper{
+    width:7rem
+  }
+  .bx--data-table td, .bx--data-table tbody th {
+    padding-left: 0rem !important;
+  }
+.SelectClass{
+  .bx--select-input__wrapper{
+    width:9rem !important;
+  }
+}
+}

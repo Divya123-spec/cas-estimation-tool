@@ -1,0 +1,4 @@
+sonar.projectKey='Cas'
+sonar.projectName='Casproject'
+sonar.sources="C:\Users\DuddukuntaDivya\casm-estimation-portal\src"
+sonar.host.url=http://localhost:9000

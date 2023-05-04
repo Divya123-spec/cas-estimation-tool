@@ -1,0 +1,41 @@
+.bx--loading-overlay{
+    z-index: 9999;
+    flex-direction: column;
+}
+.LoaderDiv{
+    // margin-top: 12%;
+    // margin-left: -7%;
+    padding-top: 1rem;
+    color: #ffff;
+    font-size: 1rem;
+}
+.LoaderSave{
+    // margin-top: 12%;
+    // margin-left: -15%;
+    color: #ffff;
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+
+.LoaderCalculate{
+    // margin-top: 12%;
+    // margin-left: -15%;
+    color: #ffff;
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+.saveModal2{
+.bx--toast-notification{
+    position: absolute;
+    top: 7%;
+    right: 0;
+    z-index: 111111;
+}
+.bx--modal-close{
+    display: none;
+}
+.bx--modal-container {
+    width: 25% !important;
+
+ }
+}

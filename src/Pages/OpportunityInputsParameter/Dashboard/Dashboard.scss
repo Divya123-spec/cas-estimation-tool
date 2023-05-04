@@ -1,0 +1,118 @@
+.main {
+    margin-left: 9%;
+
+}
+
+.head {
+    size: 28px;
+    color: black;
+    margin-top: 4.7%;
+
+    .name {
+        font-weight: bold;
+    }
+
+    // position:absolute;
+}
+
+.paragraph {
+    width: 80%;
+    padding-top: 1.6%;
+
+}
+
+
+.tabs {
+    width: 50%;
+    margin-left: 4%;
+    padding-Top: 3.1%;
+
+    .bx--tabs--scrollable.bx--tabs--scrollable--container .bx--tabs--scrollable__nav-item--selected .bx--tabs--scrollable__nav-link {
+        background-color: black;
+        color: white;
+        box-shadow: none;
+
+    }
+
+    .bx--tabs--scrollable.bx--tabs--scrollable--container {
+        margin-left: 14%;
+    }
+}
+
+.tabs {
+    width: 50%;
+    margin-left: 4%;
+    padding-Top: 3.1%;
+
+    .bx--tabs--scrollable.bx--tabs--scrollable--container .bx--tabs--scrollable__nav-item--selected2 .bx--tabs--scrollable__nav-link {
+        background-color: rgba(180, 175, 175, 0.5);
+        color: black;
+        box-shadow: none;
+
+    }
+
+    .bx--tabs--scrollable.bx--tabs--scrollable--container {
+        margin-left: 14%;
+    }
+}
+
+.display {
+    display: flex;
+
+    width: 71%;
+    margin-left: 11%;
+
+    .search {
+
+        background-color: white;
+        color: white;
+
+
+
+    }
+
+    .bx--search--lg .bx--search-input {
+        // width: 780px !important ;
+        // height: 47px;
+        background-color: white;
+    }
+
+    .buttonNewEstimate {
+        width: 12rem !important;
+        margin-top: -22px !important;
+
+    }
+
+    .bx--btn--primary {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: -14px;
+
+    }
+}
+
+.buttonNewEstimate {
+    width: 12rem !important;
+}
+
+.bx--text-input__readonly-icon {
+    display: none !important;
+}
+
+.bx--text-input-wrapper--readonly .bx--text-input {
+    padding-right: 0px !important;
+}
+
+//inline notification
+.inlineNotificationdiv {
+    margin-top: 5.7%;
+    margin-bottom: -1rem;
+
+    .bx--inline-notification {
+        max-width: 85% !important;
+    }
+
+    .bx--inline-notification__subtitle {
+        font-size: 1.1rem;
+    }
+}

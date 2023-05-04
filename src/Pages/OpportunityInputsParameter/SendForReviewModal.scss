@@ -1,0 +1,54 @@
+.bx--radio-button-group{
+    flex-direction: column !important;  
+}
+.bx--radio-button-wrapper:not(:last-of-type) {
+    margin-right: 0rem !important;
+}
+.reviewerPopup .bx--modal-container{
+    width: 34rem   !important ;
+    overflow: hidden;
+    .bx--modal-content{
+        padding-right: 6%;
+    }
+}
+.sendReviwerData{
+    display: flex;
+    
+    p{
+    margin-top: auto;
+    margin-left: 1rem;
+    margin-bottom: 2px;
+    
+    }
+    border:  1px  solid #000000;
+    padding-bottom: 0.7rem;
+
+}
+// .InputBtndiv button {
+//     margin-right: 0rem;
+// }
+
+.bx--search--xl .bx--search-close, .bx--search--xl ~ .bx--search-button {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0rem;
+}
+
+.listreviers:hover{
+text-decoration: underline;
+background-color: #0f62fe;
+color: #ffffff;
+cursor: pointer;
+}
+.selectedreviewer{
+    background-color: #0f62fe;
+    color: #ffffff;
+    border:  1px  solid #000000;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 4px;
+    padding-left: 19px;
+    padding-right: 19px;
+    margin-top: 2%;
+    margin-left: 2%;
+}

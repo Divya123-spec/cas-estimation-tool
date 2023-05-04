@@ -1,0 +1,189 @@
+.Sectionclass{
+    background: #FFFFFF ;
+    display: flex;
+    width: 96.5%;
+    padding-bottom: 1%;
+}
+.Y1Productivity{
+    margin-left: 1.1%;
+    padding-top: 0.6%;
+    .bx--text-input__field-outer-wrapper {
+        flex-direction: column;
+        width: 20%;   
+    } 
+        .bx--text-input__field-outer-wrapper {
+            flex-direction: column;
+            width: 200% !important;
+        }
+}
+ .text-rigt{
+  margin-left: 18%;
+  margin-top: 0.6%;
+//   padding-left: 29%;
+  font-size: 14px;
+  color: #525252;
+  letter-spacing: 0.16px;
+  line-height: 18px;
+  font-weight: 400;
+ } 
+.MiddleLine{
+    font-size: 14px;
+    color: #565656;
+    letter-spacing: 0.16px;
+    line-height: 18px;
+    font-weight: 600;
+    margin-top:0.6%
+}
+.Devscopsmain{
+    background: #F4F4F4;
+    padding-bottom: 2rem;
+    .bx--data-table-container {
+        width: auto !important;
+        margin-left: 1.5rem !important;
+        margin-right: 2.5rem !important;
+        margin-top: 0 !important;
+    }
+    .bx--data-table-header {
+        background: #FFFFFF !important;
+        padding: 2.9rem 0 1.5rem 0rem !important;
+    }
+    td {
+        background: #FFFFFF !important;
+    }
+}
+.SelectClass{
+.bx--select-input {
+    background: #ffff !important;;
+}
+}
+// .expandClass{
+//     width: 50% !important;
+// }
+ // Css for inside accodrain
+.SubMainClass{
+    display: flex;
+    margin-bottom: 1rem;
+    margin-top: 2.8%;
+}
+.headingScopeclass{
+    display: inline-block;
+    width:4rem;
+    margin-top: 2px;
+}
+.verticalSpan{
+    border-right: 3px solid #E0E0E0;
+    display: inline-block;
+    height: 2.5rem;
+    margin-left: 1.5rem;
+    margin-top: 2px;
+}
+.vertical-content{
+    display: flex;
+    margin: 0.5rem 1.2rem;
+    justify-content: space-between;
+    height: 32px;
+}
+// .l15{
+//     margin-right: 10px;
+//      padding-left: 80px
+// }
+//  .l2{
+//     margin-right: 10px;
+//      margin-left: 58px
+//  }
+//  .l3{
+//     margin-right: 10px;
+//      margin-left: 58px
+//  }
+//  .l4{
+//     margin-right: 8px;
+//      margin-left: 45px 
+//  }
+//  .minor{
+//     margin-right: 10px;
+//     margin-left: 40px 
+//  }
+//  .testing{
+//     margin-right: 10px;
+//     margin-left: 40px 
+//  }
+.classL15{
+    color:#DA1E28
+}
+.classl2{
+   color: #42BE65
+}
+.classl3{
+color:#42BE65
+}
+.classl4{
+    color:#DA1E28
+}
+.classminor{
+    color:#DA1E28
+}
+.classtesting{
+    color:#DA1E28
+}
+.EffortBaseline {
+    font-size: 14px;
+    display: inline-block;
+    color: #0F62FE;
+    letter-spacing: 0.16px;
+    line-height: 18px;
+    // margin-top: 0.8rem;
+    margin-bottom:0.8rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Devscopsmain,.outputMainHead{
+    .bx--select-input__wrapper{
+        width: 7rem;
+    }
+    .bx--data-table-header {
+        padding: 2.9rem 0 1.5rem 0rem !important;
+    }
+}
+.devlinkclass {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-bottom: 1rem;
+td{
+    background: #F4F4F4 !important;
+}
+}
+.ModalStyle1{
+.bx--modal-header__heading {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 0;
+    color: #161616;
+    padding-left:3rem;
+}
+.bx--modal-content{
+    padding-right:0.5px ;
+}
+}
+.warning{
+    .bx--table-expand::before { 
+        content: "";
+        border-left: 4px solid #FFBF00;
+        padding: 0.9rem 0 0.9rem 0;
+      }
+}
+.warning-productivity-class{
+    svg{
+        fill: #FFBF00;
+    }
+}
+.dataPopup{
+    display: flex;
+    justify-content: center;
+    color: #161616;
+    background-color: #E0E0E0;
+    padding: 1rem;
+    h4{
+        font-weight: bold;
+    }
+}

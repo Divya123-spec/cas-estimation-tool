@@ -1,0 +1,42 @@
+.feedback {
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  position: fixed;
+  top: 55%;
+  right: -3.2rem;
+  background: #0F62FE;
+  padding: 0rem 0.5rem;
+  min-height: 1.8rem;
+}
+
+.RadioFeedbacktype {
+  flex-direction: row !important;
+  margin-bottom: 1rem;
+}
+
+.FeedbackModalStyle {
+  .bx--toggle-input__label {
+    display: inline-block;
+    font-size: 1.1rem;
+  }
+
+  .bx--toggle__switch {
+    display: inline-block;
+    margin-left: 1rem
+  }
+
+  .bx--radio-button-wrapper:not(:last-of-type) {
+    margin-right: 0.7rem !important;
+  }
+
+  .bx--text-area {
+    border: 1px solid #8d8d8d
+  }
+  .bx--label::after{
+    content: "*";
+    color: red;
+  }
+}

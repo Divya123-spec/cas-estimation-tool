@@ -1,0 +1,99 @@
+.amsInput {
+    padding: 19px 0 19px 32.1px;
+}
+
+.amsInputMainHead {
+    background: #F4F4F4;
+    padding-bottom: 2rem;
+}
+
+.amsInputMain {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background: #ffffff;
+
+    .bx--data-table-container {
+        width: auto !important;
+        margin-left: 1.5rem !important;
+        margin-right: 2.5rem !important;
+        margin-top: 0 !important;
+    }
+
+    .bx--data-table-header {
+        background: #FFFFFF !important;
+        padding: 2.9rem 0 1.5rem 1rem !important;
+    }
+
+    td {
+        background: #FFFFFF !important;
+    }
+}
+
+
+
+// 2nd table
+.TicketDistribution {
+    padding-bottom: 2rem;
+
+    .bx--text-input {
+        border-bottom: none !important;
+        width: 5.13rem;
+        height: 2rem;
+    }
+
+    .bx--data-table td {
+        border-top: none !important;
+        border-bottom: none !important;
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .bx--form-item {
+        width: 70%;
+    }
+    .labelrow{
+        width: 27%;
+        h6{
+            font-weight: 500;
+        }
+    }
+}
+
+.ams-utilization-calculation{
+    padding-bottom: 2rem;
+
+    .bx--text-input {
+        // border-bottom: none !important;
+        width: 5.13rem;
+        height: 2rem;
+    }
+
+    .bx--data-table td {
+        border-top: none !important;
+        border-bottom: none !important;
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .bx--form-item {
+        width: 70%;
+    }
+    .labelrow{
+        width: 27%;
+        h6{
+            font-weight: 500;
+        }
+    }
+    th:last-child {
+        div{
+            text-align: center;
+        }
+    }
+}
+.errorHours{
+    color: #DA1E28 !important;
+}
+.rangeHour{
+    font-size: 13px;
+    padding-top: 4px;
+}

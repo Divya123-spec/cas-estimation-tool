@@ -1,0 +1,1 @@
+export const baseUrl = "https://hcm-estimation-api-hotfix.dal1a.ciocloud.nonprod.intranet.ibm.com/";

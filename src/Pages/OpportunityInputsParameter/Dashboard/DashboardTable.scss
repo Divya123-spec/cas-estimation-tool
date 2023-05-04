@@ -1,0 +1,52 @@
+.a{
+    font-size: 45px;
+    text-decoration: none;
+    color: #0F62FE;
+}
+.table{
+  margin-bottom: 2rem;
+   
+}
+.pagination{
+    width: 71%;
+    margin-left: 11%;
+    background-color: white;
+    .bx--pagination {
+        background-color: white;
+        // border: 1px solid grey;
+    }
+    .bx--select-input{
+        background-color: white !important;
+    }
+    // .bx--select-input{
+    //     background-color: white;
+    // }
+}
+.tableBody{
+    background-color: #ffff !important;
+    .bx--data-table td, .bx--data-table tbody th{
+        background-color: #ffff !important;
+    }
+    td{
+        background-color: #ffff !important;
+    }
+} .tbody{
+    background-color: #ffff !important;
+}
+.abd{
+    background-color: #ffff !important;
+}
+.tableparent{
+    display: flex;
+    flex-direction: row;
+}
+.SearchPlaceholder{
+    .bx--search-input:hover , .bx--search-input{
+        border: 1px solid #E0E0E0 !important;
+        color: black;
+        background-color: #ffff;
+    }
+    .bx--toolbar-search-container-persistent .bx--search .bx--search-input:hover:not([disabled]) {
+        background: #ffff;
+    }
+}

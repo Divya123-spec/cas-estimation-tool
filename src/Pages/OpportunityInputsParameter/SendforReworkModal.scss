@@ -1,0 +1,9 @@
+.bx--radio-button-group{
+    flex-direction: column !important;  
+}
+.bx--radio-button-wrapper:not(:last-of-type) {
+    margin-right: 0rem !important;
+}
+.bx--toast-notification--low-contrast.bx--toast-notification--success{
+    margin-left:initial !important;
+}

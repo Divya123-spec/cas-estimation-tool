@@ -1,0 +1,244 @@
+// this file code represents the  css for the  Effort output section in apllication
+.outputMain {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background: #FFFFFF;
+}
+.outputMainHead{
+    background: #F4F4F4;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    .bx--data-table-container {
+        width: auto !important;
+        margin-left: 1.5rem !important;
+        margin-right: 2.5rem !important;
+        margin-top: 0 !important;
+    }
+    .tableBold{
+        font-weight: bold;
+    }
+    .bx--data-table-header {
+        background: #FFFFFF !important;
+        padding: 2.9rem 0 1.5rem 1rem !important;
+    }
+    td {
+        background: #FFFFFF;
+    }
+}
+.outputMainHead1{
+    background: #F4F4F4;
+    padding-bottom: 0.5rem;
+    padding-top: 2rem;
+    .bx--data-table-container {
+        width: auto !important;
+        margin-left: 1.5rem !important;
+        margin-right: 2.5rem !important;
+        margin-top: 0 !important;
+    }
+    .tableBold{
+        font-weight: bold;
+    }
+    .bx--data-table-header {
+        background: #FFFFFF !important;
+        padding: 2.9rem 0 1.5rem 1rem !important;
+    }
+    td {
+        background: #FFFFFF;
+    }
+}
+.mainheads{
+    font-size: 21px;
+    padding-left: 2rem;
+    /* padding-top: 2rem; */
+    padding-right: 3rem;
+}
+.OutputROMData{
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    span{
+        margin-right: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    a{
+        margin-left: auto;
+        cursor: pointer;
+        margin-right: 3.5rem;
+    }
+    svg{
+        fill: #0F62FE;
+    }
+}
+.OutputROMDataDisabled{
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    span{
+        margin-right: 4px;
+        font-size: 16px;
+    }
+    a{
+        color: grey;
+        margin-left: auto;
+        margin-right: 3.5rem;
+    }
+     svg{
+         fill: grey;
+     }
+}
+.OutputMainData,.OutputMainDataDisable{
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    span{
+        font-size: 16px;
+        cursor: pointer;
+        margin-right: 4px;
+    }
+    .mainHeadersOutput{
+        font-size: 1.25rem;
+    font-weight: 400;
+    }
+    // a{
+    //     // margin-left: auto;
+    //     // margin-right: 3.5rem;
+    // }
+    svg{
+        fill: #0F62FE;
+    }
+}
+.OutputMainDataDisable{
+    a{
+        color: grey;
+         margin-left: auto;
+        margin-right: 1rem;
+    }
+     svg{
+         fill: grey;
+     }
+}
+.outputMainHead2{
+    background: #F4F4F4;
+  // padding-bottom: 2rem;
+    padding-top: 2rem;
+    .bx--data-table-container {
+        width: auto !important;
+        margin-left: 1.5rem !important;
+        margin-right: 2.5rem !important;
+        margin-top: 0 !important;
+    }
+    .bx--data-table-header {
+        background: #FFFFFF !important;
+        padding: 2.9rem 0 1.5rem 1rem !important;
+    }
+    td {
+        background: #FFFFFF !important;
+    }
+}
+.mainOutputs:last-of-type{
+    padding-bottom: 2rem;
+}
+.fiveYearOutputs{
+       .labelrow + td{
+        display: none;
+      }
+}
+.tableBold{
+    font-weight: bold;
+}
+// .bx--data-table-container{
+//     width: 100%;
+//     margin-left: 10px;
+// }
+.MiddleLine{
+    font-size: 13px;
+    color: #D6D6D6 ;
+    letter-spacing: 0.16px;
+    line-height: 18px;
+    font-weight: 600;
+    margin-top:0.6%;
+    padding-left: 2rem;
+}
+.table-no-border {
+    td{
+        border: none !important;
+    }
+}
+.infoClasss{
+    font-size: 12px;
+    svg {
+        margin-right: 4px;
+        margin-bottom: -2px;
+    }
+}
+.rowbold{
+    font-weight: 600;
+}
+.BorderClass{
+    border-right: 1px solid #D6D6D6 ;
+}
+.BorderClass2{
+    border-right: 1px solid #D6D6D6 ;
+}
+.BorderClass3{
+    border-right: 1px solid #D6D6D6 ;
+}
+.RowColor{
+    background: #F4F4F4 !important;
+}
+.borderbottomClass{
+//     opacity: 0.1;
+// background: #161616;
+    border-bottom: 1px solid #D6D6D6 ;
+}
+.aligncontents{
+    .bx--table-header-label{
+       text-align: center;
+    }
+}
+.midHeader{
+        background: #F4F4F4 !important;
+}
+.textaligin{
+    text-align: center !important;
+}
+.toolTip{
+    .bx--assistive-text{
+        left: 5.5rem !important;
+    }
+}
+.productinfoClasss{
+    svg {
+        width: 16px;
+        margin-left: auto;
+    }
+}
+.innertext{
+    font-weight: 600;
+    font-size: 14px;
+}
+.borderOutput{
+    border-right:2px solid #D6D6D6;
+}
+.tableBoldValue{
+    font-weight:bold !important;
+}
+.DownloadBtn{
+    margin: auto;
+    margin-right: 1rem;
+}
+.headerdata2{
+        background-color:#F4F4F4 !important; 
+}
+.TotalBold{
+  font-weight: bold !important;  
+}
+
+	//********* jira- CMIWET-748 **********
+// As a  part of the vulnerability fixes the download icon cursor property has changed in the effortoutput and year1 romcost ,
+// we have reverted back that by using css as below.
+.OutputMainData svg{
+    fill: #0F62FE;
+    cursor: pointer;
+}

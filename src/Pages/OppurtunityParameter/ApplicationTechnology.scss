@@ -1,0 +1,212 @@
+.additionldistribution-mainclass {
+    margin-left: 2.2%;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+
+    .headerAdditionalDistribution {
+
+        .header-class {
+            display: inline-block;
+            width: 33rem;
+
+        }
+
+         display: flex;
+    }
+
+    .addTechnnology {
+        margin-left: auto;
+        margin-right: 2rem;
+    }
+
+    .header-class {
+        font-size: 28px !important;
+        color: #000000;
+        letter-spacing: 0;
+    }
+
+    .totalPercentage {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
+        span {
+            margin-right: 2rem;
+        }
+    }
+
+    .additionalDistributionTable {
+        // width: 62rem;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+
+        .bx--text__input {
+            width: 7rem !important;
+
+        }
+
+        tbody {
+            line-height: 5rem !important;
+        }
+
+        td {
+            border-bottom: none !important;
+            //  padding-bottom: 1rem;
+        }
+
+        .bx--select {
+
+            .bx--select-input {
+                background: #FFFFFF !important;
+                height: 3rem;
+            }
+        }
+
+        .greenTick {
+            color: #42BE65;
+        }
+
+        .redTick {
+            color: #DA1E28;
+
+            .bx--tooltip__trigger svg {
+                fill: #DA1E28 !important;
+            }
+        }
+       
+    }
+
+    .saleStageDropdown {
+        width: 18.8%;
+    }
+
+    .subWorkStreamDropdown {
+        width: 26%;
+    }
+
+    .error-icon {
+        color: #DA1E28;
+        margin-left: 0.6rem;
+    }
+
+    .warning-icon{
+       color: #FF832B;
+       margin-left: 0.6rem;
+    }
+    .tick-icon {
+        margin-left: 1rem;
+    }
+
+    .applicationDistributionErr {
+        color: #DA1E28;
+        font-size: 12px;
+        margin-bottom: 1rem;
+    }
+
+    .NonStandardEstimation {
+        font-size: 14px;
+        color: #0F62FE;
+        letter-spacing: 0.16px;
+        line-height: 18px;
+        margin-top: 2rem;
+    }
+    .EffortBaseline {
+        font-size: 14px;
+        color: #0F62FE;
+        letter-spacing: 0.16px;
+        line-height: 18px;
+        margin-top: 0.6rem;
+        text-decoration: underline;
+        cursor: pointer;
+    
+    }
+}
+.bx--content{
+overflow: hidden;
+padding:0!important;
+margin-top: 3rem;
+width: 100%;
+}
+
+.inputNameOpp{
+    .bx--content{
+        transform: none!important;
+    }
+}
+.inputName{
+    .bx--content{
+        transform: none!important;
+    }
+}
+.totalPercentage{
+    span{
+        font-weight: 600;
+    }
+}
+.HelperRange{
+    font-size: 0.75rem;
+    line-height: 1.34;
+    letter-spacing: 0.32px;
+    z-index: 0;
+    width: 100%;
+    margin-top: 0.25rem; 
+    opacity: 1;
+    .normalRange{
+        color: #525252;
+    }
+    .errorRange{
+        color: #DA1E28;
+    }
+    .warninRange{
+        color: #FF832B;
+    }
+}
+.bx--label--disabled{
+    color: #525252;
+}
+.deleteModalBtn{
+    cursor: pointer;
+}
+.BriefEstimateModal{
+    .bx--modal-content{
+        // padding-right: 4px !important;
+        padding-left: 4px !important;
+    }
+    .bx--modal-container{
+        width: 75rem !important;
+    }
+    .bx--data-table-content {
+        overflow-x:unset !important;
+    }
+    
+.bx--data-table-container {
+    width: 71%;
+    margin-left: 0px !important;
+   
+}
+.bx--modal-header{
+padding-top: 10px !important;
+}
+}
+
+.effortnotes{
+    p {
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0;
+        margin-left: 0.7rem;
+    }
+    }
+    .basic-class{
+        .bx--select--disabled .bx--label{
+          color: #525252 !important;
+        
+        }
+      }
+
+    //   decomssion retiring feild
+
+    .input-class-decommsion{
+        width: 22%;
+        margin-top: 1rem;
+    }

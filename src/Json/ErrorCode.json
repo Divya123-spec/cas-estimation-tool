@@ -1,0 +1,8 @@
+{
+    "CAS100008":"One record already exists in the system against the same opportunity ID for the selected Sale stage. Note :For BAFO / RFP sales stages, only one estimation record is allowed per sales stage against an opportunity",
+    "ERRCAS401":"Unauthorized",
+    
+    "ERRCAS409":"ERRCAS409",
+    "message":"Conflict - major version changed. Please migrate the estimate to latest estimation template."
+
+}

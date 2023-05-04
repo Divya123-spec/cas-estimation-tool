@@ -1,0 +1,176 @@
+﻿{
+  "general": {
+    "appComplexityBasedDistributionPercentage": {
+      "isRowPercentage": true,
+      "fields": {}
+    },
+    "cotsThirdPartyPercentageOfTotalApps": {
+      "isRowPercentage": true,
+      "fields": {}
+    },
+    "criticalAppPercentageOfTotalApps": {
+      "isRowPercentage": true,
+      "fields": {}
+    },
+    "ticketDistributionPercentage": {
+      "isRowPercentage": true,
+      "fields": {}
+    },
+    "additionalBatchJobsSupportUpliftPercentage": {
+      "isRowPercentage": true,
+      "fields": {}
+    },
+    "l1DistributionPercentage": {
+      "isRowPercentage": true,
+      "fields": {}
+    },
+    "l2DistributionPercentage": {
+      "isRowPercentage": true,
+      "fields": {}
+    },
+    "l3DistributionPercentage": {
+      "isRowPercentage": true,
+      "fields": {}
+    },
+    "l4DistributionPercentage": {
+      "isRowPercentage": true,
+      "fields": {}
+    },
+    "minorEnhDistributionPercentage": {
+      "isRowPercentage": true,
+      "fields": {}
+    },
+    "additionalADCapacityHrsDistributionPercentage": {
+      "isRowPercentage": false,
+      "fields": {
+        "simple": true,
+        "medium": true,
+        "complex": true,
+        "total": false
+      }
+    },
+    "additionalADCapacityHrsDistribution": {
+      "isRowPercentage": false,
+      "fields": {
+        "simple": false,
+        "medium": false,
+        "complex": false,
+        "total": true
+      }
+    },
+    "nonTicketingActivitiesUpliftDistributionPercentage": {
+      "isRowPercentage": true,
+      "fields": {}
+    }
+  },
+  "cloudAppOps": {
+    "onCloudAppDistributionPercentage": {
+      "isRowPercentage": true,
+      "fields": {}
+    },
+    "rehostedAppsOnCloudDistributionPercentage": {
+      "isRowPercentage": true,
+      "fields": {}
+    },
+    "replatformRefactorAppsOnCloudDistributionPercentage": {
+      "isRowPercentage": true,
+      "fields": {}
+    },
+    "reArchitectReBuildAppsOnCloudDistributionPercentage": {
+      "isRowPercentage": true,
+      "fields": {}
+    },
+    "saasAppsOnCloudDistributionPercentage": {
+      "isRowPercentage": true,
+      "fields": {}
+    },
+    "replatformRefactorAppsMovingToContainerDistributionPercentage": {
+      "isRowPercentage": true,
+      "fields": {}
+    },
+    "reArchitectReBuildAppsMovingToContainerDistributionPercentage": {
+      "isRowPercentage": true,
+      "fields": {}
+    }
+  },
+  "ams": {
+    "ticketsDistribution": {
+      "inScopeL1DistributionPercentage": {
+        "isRowPercentage": true,
+        "fields": {}
+      },
+      "inScopeL2DistributionPercentage": {
+        "isRowPercentage": true,
+        "fields": {}
+      },
+      "inScopeL3DistributionPercentage": {
+        "isRowPercentage": true,
+        "fields": {}
+      },
+      "inScopeL4DistributionPercentage": {
+        "isRowPercentage": true,
+        "fields": {}
+      },
+      "inScopeMinorEnchDistributionPercentage": {
+        "isRowPercentage": true,
+        "fields": {}
+      }
+    }
+  },
+  "testing": {
+    "testingFTEDistributionPercentage": {
+      "isRowPercentage": true,
+      "fields": {}
+    }
+  },
+  "security": {
+    "appSecurityScopeDistributionPercentage": {
+      "isRowPercentage": true,
+      "fields": {}
+    },
+    "remediationTicketsDistributionPercentage": {
+      "isRowPercentage": true,
+      "fields": {}
+    }
+  },
+  "transition": {
+    "managerTravelToolCostDistributionPercentage": {
+      "isRowPercentage": true,
+      "fields": {}
+    },
+    "rampUpReductionConsideredDistributionPercentage": {
+      "isRowPercentage": true,
+      "fields": {}
+    }
+  },
+  "nonLabour": {
+    "nonLabourCostDistributionPercentage": {
+      "isRowPercentage": true,
+      "fields": {}
+    }
+  },
+  "moveToCloud": {
+    "nonCloudAppsPercentagePlannedToMoveToCloudEachYear": {
+      "isRowPercentage": true,
+      "fields": {}
+    },
+    "appsNotOnCloudAtStartOfYear": {
+      "isRowPercentage": false,
+      "fields": {}
+    },
+    "appsCountToBeMovingToCloudYoY": {
+      "isRowPercentage": false,
+      "fields": {}
+    },
+    "appsTotalOnCloudByEndOfYear": {
+      "isRowPercentage": false,
+      "fields": {}
+    },
+    "appsTotalNotOnCloudByEndOfYear": {
+      "isRowPercentage": false,
+      "fields": {}
+    }
+  },
+  "automation": {},
+  "productivity": {}
+}

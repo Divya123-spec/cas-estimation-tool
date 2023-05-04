@@ -1,0 +1,159 @@
+// Additional cost information
+
+.additionlcost-mainlclass {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+
+    .bx--select--disabled .bx--label, .bx--select--disabled .bx--form__helper-text{
+        color: #525252 !important;
+    }
+}
+
+.costheader-class {
+    font-size: 28px;
+    color: #000000;
+    letter-spacing: 0;
+    margin-bottom: 16px;
+}
+
+
+
+.additional-field2 {
+    background-color: #e0e0e0 !important;
+}
+
+//1st row
+.additional {
+    margin-bottom: 2rem;
+    display: flex;
+    // gap: 2rem;
+    width: 77%;
+div:first-of-type{
+    margin-right: 2rem;
+}
+    .bx--form-item {
+        width: 59%;
+        display: inline-block;
+        flex: none;
+    }
+
+    .cost-class {
+        width: 30%;
+
+        .bx--form-item {
+            width: 110%;
+
+        }
+    }
+
+}
+
+//2nd row
+.ignitemain-class {
+    display: flex;
+    margin-bottom: 2rem;
+    // gap: 2rem;
+    width: 77%;
+    div:first-of-type{
+        margin-right: 2rem;
+    }
+    .bx--form-item {
+        width: 59%;
+        display: inline-block;
+        flex: none;
+    }
+
+    .bx--select-input {
+        background: #ffffff !important;
+
+    }
+
+    .ignite-tool {
+        width: 30%;
+
+        .bx--form-item {
+            width: 110%;
+
+        }
+    }
+
+}
+
+//3rd row
+.liberty-class {
+    margin-bottom: 2rem;
+    display: flex;
+    // gap: 2rem;
+    width: 77%;
+    div:first-of-type{
+        margin-right: 2rem;
+    }
+    .bx--form-item {
+        width: 59%;
+        display: inline-block;
+        flex: none;
+    }
+
+    .bx--form__helper-text {
+        color:#FF832B;
+    }
+
+    .geo-class {
+        width: 30%;
+
+        .additional-field2 {
+            background: none !important;
+        }
+
+        .bx--form-item {
+            width: 110%;
+
+        }
+    }
+
+    .bx--select-input {
+        background: #ffffff !important;
+    }
+}
+
+//fourth row
+.conversions-class {
+    display: flex;
+    padding-bottom: 3.2%;
+    // gap: 2rem;
+    
+}
+
+.USD-class {
+     margin-left: 2rem;
+}
+
+.tick-icon {
+    color: #42BE65;
+    width: 22px;
+    height: 22px;
+    margin-left: 9px;
+}
+
+.error-icon {
+    width: 22px;
+    height: 22px;
+    color: #da1e28;
+    margin-left: 9px;
+}
+.warning-icon{
+    width: 22px;
+    height: 22px;
+    color: #FF832B;
+    margin-left: 9px;
+}
+
+.bx--label {
+    margin-bottom: 8px !important;
+}
+[data-attr='readonly'] {
+    pointer-events: none;
+    touch-action: none;
+  }
+ 

@@ -1,0 +1,30 @@
+.HeaderBtn{
+    margin-left: 1rem;
+   background: transparent;
+   margin-right: 3rem;
+   svg{
+       fill: #ffffff;
+   }
+   
+}
+
+
+.HeaderBtn:hover, .HeaderBtnHelp32:hover {
+   color: #f4f4f4;
+   svg{
+       fill: #ffffff;
+   }
+}
+.img-class{
+   border-radius: 50%;
+   margin-top:3px;
+}
+.HeaderBtnHelp32{
+   // margin-left: 64rem;
+   svg{
+       fill: #ffffff;
+   }
+}
+.iconclass{
+   margin-left: auto;
+}

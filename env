@@ -1,0 +1,6 @@
+HTTPS=true
+
+#If you want to use your own certificate, uncomment the following environment variables and replace their current value with the path where your certificate and your private key are located
+
+#SSL_CRT_FILE=./.cert/your_cert.crt
+#SSL_KEY_FILE=./.cert/your_key.key

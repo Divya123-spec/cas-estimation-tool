@@ -1,0 +1,45 @@
+// .bx--modal-close{
+//     display: none !important;
+
+// }
+//********* jira- CMIWET-747 **********
+// As a  part of the vulnerability fixes we got additional close button on all modals in UI, 
+//where its not a defalut behaviour from carbon design modal
+//by using css we are hiding the close button without  disturbing other functionalities of the tool. 
+
+.closeBtnHiding{
+    .bx--modal-close{
+            display: none !important;
+        
+        }
+}
+.MyEstimate-button{
+    .bx--btn--primary {
+        color: #ffffff !important;
+        background-color: #000000 !important;
+        border-color: white !important;
+        border-style: solid !important;
+        border-width: 1px !important;
+    }
+    .bx--btn--primary:hover{
+        background-color:#ffffff !important;
+        color:#000000 !important;
+      
+    }
+ 
+ }
+ .MyEstimate-button2{
+     display: flex;
+//margin: 0.5rem 0rem 0rem 0rem;
+     margin: -3rem 3rem 0rem -15rem !important;
+    
+
+.bx--btn--tertiary {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+    color: #ffff;
+}
+ }
+
+    

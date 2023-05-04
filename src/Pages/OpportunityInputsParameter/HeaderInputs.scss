@@ -1,0 +1,180 @@
+.HeaderInputdiv {
+    background: #000000;
+    // height: 8.6%;
+    padding: 1.6% 2.2%;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 20px;
+    display: flex;
+
+    .OppIdClientName {
+        margin-right: 8.2%;
+    }
+
+    div:last-of-type {
+        margin-left: auto;
+    }
+}
+
+.InputBtndiv {
+    background: #F4F4F4;
+    // height: 4.7%;
+    padding: 1.6% 2.2%;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 20px;
+    // display: flex;
+    border-bottom: 1px solid #979797;
+
+    // div:last-of-type {
+    //     margin-left: auto;
+    // }
+
+    .OppIdClientName {
+        margin-right: 8.2%;
+    }
+
+    button {
+        margin-right: 1rem;
+        // min-height: 0!important;
+    }
+
+    .InputBtndivHead {
+        display: flex;
+        margin-bottom: 1rem;
+    }
+}
+
+.btnDisplay {
+    margin-left: auto;
+    display: flex;
+    // button{
+    //     height: 3rem;
+    // }
+}
+
+.BtnReset {
+    color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+
+}
+
+.BtnReset:hover,
+.BtnReset:visited,
+.BtnReset:active {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+    border-color: #FFFFFF !important;
+}
+
+.bx--grid {
+    padding-right: 0;
+}
+
+.headerText {
+    background: #000000;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 20px;
+    padding: 1rem 2rem 1rem 0rem;
+}
+
+//buttons
+.outputBtn {
+    display: inline-block;
+}
+
+.outputBtnHide {
+    display: none;
+}
+
+.headerInputModal {
+    .bx--modal-container {
+        width: 50rem !important;
+        overflow: auto;
+    }
+}
+
+
+
+.ValueClass {
+    font-weight: 600;
+}
+
+// .radioclass{
+
+// }
+.review-div .bx--btn {
+    margin-left: 5px;
+    float: left;
+    color: white !important;
+    background-color: none !important;
+    border: 1px solid #FFFFFF !important;
+
+}
+
+// .rework-button{
+//     color: white !important;
+//     // background-color:none !important;
+//     border: 1px solid #FFFFFF  !important;
+//     width: 31%;
+//     margin-left:2px;
+//     float:left;
+//    }
+//    .approve-button{
+//     color: white !important;
+//     background-color:none !important;
+//     border: 1px solid #FFFFFF  !important;
+//     margin-right:2px;
+//     float:unset;
+//     width: 32%;
+//    }
+
+
+.exportInProgress {
+    .bx--modal-container {
+        width: 29.2% !important;
+        font-size: 14px;
+    }
+}
+
+#reviewerModalDiv .reviewerSucessPopup {
+    .bx--modal-container {
+        width: 29.2% !important;
+        font-size: 14px;
+        overflow: auto;
+    }
+}
+
+//********* jira- CMIWET-747 **********
+// As a  part of the vulnerability fixes we got additional close button on all modals in UI, 
+//where its not a defalut behaviour from carbon design modal
+//by using css we are hiding the close button without  disturbing other functionalities of the tool. 
+.closeBtnHiding {
+    .bx--modal-close {
+        display: none !important;
+
+    }
+}
+
+//inline notification
+.inlineNotifcationDeatiled {
+    margin-left: 2rem;
+
+    // margin-bottom: -1rem !important;
+    .bx--inline-notification {
+        max-width: 98% !important;
+
+    }
+
+    .bx--inline-notification__subtitle {
+        font-size: 1.1rem;
+    }
+}
+
+.bx--content {
+    background: #f4f4f4;
+}

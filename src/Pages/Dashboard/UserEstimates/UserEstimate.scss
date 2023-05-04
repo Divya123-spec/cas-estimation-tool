@@ -1,0 +1,270 @@
+.bx--data-table-container {
+    width: 71%;
+    margin-left: 11%;
+    // margin-top: 6%;
+
+}
+
+.ModalStyle {
+    label {
+        font-size: 12px;
+        color: #525252;
+        letter-spacing: 0.32px;
+        line-height: 16px;
+    }
+}
+.SelectBoxesManually{
+    .bx--select--disabled .bx--label, .bx--select--disabled .bx--form__helper-text{
+        color: #525252;
+   
+}
+}
+
+.bx--checkbox-label-text {
+    font-size: 14px !important;
+    color: #161616 !important;
+    letter-spacing: 0.16px !important;
+    line-height: 18px !important;
+    padding-left: 0.2rem!important;
+}
+
+
+.Header {
+    font-size: 20px;
+    color: #161616;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.HeaderPara {
+    font-size: 14px;
+    color: #525252;
+    letter-spacing: 0.16px;
+    line-height: 20px;
+    margin-bottom: 2.3%;
+    margin-left: 1rem;
+}
+
+.InputTags {
+    margin-bottom: 2.3%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.CheckBoxHandler {
+    margin-bottom: 3.1%;
+}
+
+.InputTagsManually {
+    display: flex;
+    margin-bottom: 3.1%;
+}
+
+.SelectBoxesManually {
+    display: flex;
+    margin-bottom: 3.1%;
+    position: relative;
+}
+
+.bx--modal-container {
+    width: 42rem !important;
+    background: #FFFFFF;
+}
+.mandatory {
+    font-size: 20px;
+    color: #DA1E28;
+    letter-spacing: 0;
+}
+
+.not-mandatory {
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+input.error {
+    border: 2px solid #DA1E28 !important;
+}
+
+.errorMessage {
+    font-size: 12px;
+    color: #DA1E28;
+    letter-spacing: 0.32px;
+    line-height: 16px;
+}
+
+.opportunityStyle {
+    margin-bottom: 3.1%;
+    position: relative;
+
+    .bx--form-item {
+        width: 37.5rem;
+    }
+
+    .oppIdDiv {
+        display: inline-block;
+    }
+
+    .fetchOpportunity {
+        margin-left: 1.3%;
+        display: inline-block;
+    }
+
+    .fetchOppIdIcon {
+        position: absolute;
+        top: 58%;
+        right: 1%;
+    }
+
+    .fetchOppIdIconErr {
+        top: 47%;
+        position: absolute;
+        right: 1%;
+    }
+
+}
+
+.bx--btn {
+    max-width: 30rem !important;
+}
+
+.buttonTags {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    button {
+     width: 50%; 
+    }
+
+    .cancelStyle {
+        background: #393939;
+    }
+}
+
+.bx--text-input {
+    background: #F4F4F4 !important;
+    //color: #A8A8A8 !important;
+}
+.bx--text-input::placeholder {
+   color: #A8A8A8 !important;
+ }
+
+.bx--select-input {
+    background: #F4F4F4 !important;
+    color: #161616 !important;
+}
+
+.inactive {
+    color: #C6C6C6;
+}
+
+.active {
+    color: #42BE65;
+}
+
+.oppIdErrIcon {
+    color: #DA1E28;
+}
+
+.oppIdIconDiv {
+    position: absolute;
+    right: 8%;
+    top: 48%;
+}
+
+.saleStageIconDiv {
+    position: absolute;
+    top: 39%;
+    left: 43%;
+}
+
+
+
+.saleStageIcon {
+    color: #F1C21B;
+}
+
+.textInputBottom {
+    margin-bottom: 3.1%;
+}
+
+@media (min-width: 66rem) {
+    .ModalStyle{
+        .bx--modal-container {
+            width: 60%;
+            max-height: 100% !important;
+        }
+
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .ModalStyle{
+        .bx--modal-container{
+            overflow-y: scroll;
+            // max-height: 96%;
+        }
+    }
+   
+
+}
+
+@media screen and (max-width: 1340px) and (min-width: 1200px) {
+    .fetchOppIdIcon {
+
+        top: 55% !important;
+    }
+
+    .fetchOppIdIconErr {
+        top: 47% !important;
+        right: 1%;
+
+    }
+
+    .opportunityStyle {
+        margin-bottom: 1.6% !important;
+        position: relative;
+    }
+
+    .CheckBoxHandler {
+        margin-bottom: 1.6% !important;
+    }
+
+    .textInputBottom {
+        margin-bottom: 1.6%;
+    }
+
+    .InputTagsManually {
+
+        margin-bottom: 1.6% !important;
+    }
+
+    .SelectBoxesManually {
+        display: flex;
+        margin-bottom: 1.6% !important;
+        position: relative;
+    }
+
+}
+
+@media screen and (max-width: 1490px) and (min-width: 1300px) {
+    .fetchOppIdIcon {
+
+        top: 55% !important;
+    }
+
+    .fetchOppIdIconErr {
+        top: 45% !important;
+
+    }
+}
+
+@media screen and (max-width: 1700px) and (min-width: 1500px) {
+    .fetchOppIdIcon {
+
+        top: 49%;
+    }
+}

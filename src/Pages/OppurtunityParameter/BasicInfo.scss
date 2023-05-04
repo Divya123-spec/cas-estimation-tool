@@ -1,0 +1,159 @@
+.basic-class {
+    width: 90%;
+    margin-left: 2rem;
+    padding-top: 1.06rem;
+    .bx--text-input {
+        background-color: #ffffff !important;
+    }
+}
+.input-class {
+    display: flex;
+    // .bx--form-item {
+    //     flex: none;
+    // }
+}
+.input-class > div {
+    margin-right: 2rem;
+}
+.oppurtunity-input {
+    background: #f4f4f4;
+    .bx--text-input {
+        background-color: #ffffff !important;
+    }
+    .bx--text-input:disabled , .bx--date-picker__input:disabled {
+        background-color: #e0e0e0 !important;
+        color: #161616;
+        -webkit-text-fill-color: #161616;
+        //********* jira- CMIWET-747 **********
+        // As a  part of the vulnerability fixes we got all the disabled fileds are not appreaing properly becoz of ,
+        // while updation it has changed into its defalut color so we reverted back the color as before which we given.
+    }
+
+}
+.Application-mainlclass {
+    width: 1120px;
+    height: 359px;
+    margin-left: 2.2%;
+}
+.header-class {
+    font-size: 28px;
+    color: #000000;
+    letter-spacing: 0;
+    height: 37px;
+    width: 453px;
+    margin-bottom: 16px;
+}
+.efortheader-class{
+    font-size: 28px;
+    color: #000000;
+    letter-spacing: 0;
+    height: 37px;
+    width: 453px;
+    margin-bottom: 16px;
+    margin-left: 11px;
+}
+
+.tick-icon {
+    color: #42be65;
+    width: 22px;
+    height: 22px;
+    margin-left: 9px;
+}
+
+.error-icon {
+    width: 22px;
+    height: 22px;
+    color: #da1e28;
+    margin-left: 9px;
+}
+.effort_estimation_parameters-error-icon{
+    color:#FF832B !important;
+}
+.additionldistribution-mainclass{
+    margin-left: 2rem;
+}
+   .NonStandardEstimation{
+       margin-left: 0.3rem;
+   } 
+// }
+// @media screen and (max-width: 1208px) and (min-width: 1023px) {
+// }
+
+// @media screen and (max-width: 1340px) and (min-width: 1200px) {
+//     .additionldistribution-mainclass {
+//         .bx--modal-container {
+//             top: 34% !important;
+//             left: 12% !important;
+//         }
+//     }
+// }
+
+// @media screen and (max-width: 1490px) and (min-width: 1300px) {
+//     .additionldistribution-mainclass {
+//         .bx--modal-container {
+//             top: 28% !important;
+//             left: 20% !important;
+//         }
+//     }
+// }
+// @media screen and (max-width: 1600px) and (min-width: 1500px) {
+//     .additionldistribution-mainclass {
+//         .bx--modal-container {
+//             top: 35% !important;
+//             left: 20% !important;
+//         }
+//     }
+// }
+
+.effort-estimatiom-params{
+    display: flex;
+    flex-wrap: wrap;
+    .errorRange{
+        color: #FF832B;
+    }
+    .errorClassRange{
+        color: #da1e28;
+    }
+    .child{
+        position: relative;
+        max-width: 33.33%;
+        margin: 10px;
+        width: 280px;
+        .infoIcon{
+            position: absolute;
+            right: 10px;
+            top:35px;
+            svg{
+                fill:#FF832B;
+            }
+        }
+        .errorIcon{
+            position: absolute;
+            right: 10px;
+            top:35px;
+            svg{
+                fill:#da1e28;
+            }
+        }
+    }
+}
+
+.select-option{
+    .bx--select-input {
+        background: #ffffff !important;
+    }
+}
+.errorTextColor{
+    color: #da1e28 !important;
+}
+.percentageOnsiteError,.percentageOffhsoreError{
+    border: 1.5px solid  #da1e28;
+}
+
+.DateTransitionSteady{
+display: flex;
+// margin-top: 1rem;
+.bx--date-picker__input{
+    width: 12rem !important;
+}
+}

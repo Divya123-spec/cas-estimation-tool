@@ -1,0 +1,518 @@
+
+.clientMainDiv{
+   
+    .bx--accordion__content{
+        // padding-left: 58px !important;
+    }.head{
+        display: inline-block;
+        margin-top: 35px;
+        font-size: 15px;
+        padding-left: 20px;
+    }   
+} 
+.multipleMain{
+    padding-Left:89.1px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    .bx--checkbox-label-text{
+        margin-left: 0.5rem !important;
+    }
+}
+.dis{
+    padding-top: 1%;
+   
+}
+.disData{
+    margin-right: 1rem;
+}
+.blenPer{
+    display: inline-block;
+    width:4rem;
+    margin-top: 2px;
+}
+.blenSpan{
+    border-right: 3px solid #E0E0E0;
+    display:inline-block;
+    height:1.5rem;
+    margin-left:1rem;
+    margin-top: 2px;
+}
+.blenLabel{
+    margin-left:7rem ;
+     margin-top:-2rem;
+     .l1{
+        margin-right: 70px;
+         padding-left: 18px
+     }
+     .l2{
+        margin-right: 69px
+     }
+     .l3{
+         margin-right: 65px;
+       
+     }
+     .l4{
+         margin-right: 54px;
+     }
+     .minor{
+         margin-right: 40px;
+     }
+}
+   .blenLabelValue{
+    padding-left: 44px;
+    .l1{
+        margin-right: 10px;
+         padding-left: 80px
+    }
+     .l2{
+        margin-right: 10px;
+         margin-left: 58px
+     }
+     .l3{
+        margin-right: 10px;
+         margin-left: 58px
+     }
+     .l4{
+        margin-right: 8px;
+         margin-left: 45px 
+     }
+     .minor{
+        margin-right: 10px;
+        margin-left: 40px 
+     }
+   }
+
+   .blenLabelValueEnabled{
+    padding-left: 44px;
+    .l1{
+        margin-right: 10px;
+         padding-left: 80px
+    }
+     .l2{
+        margin-right: 10px;
+         margin-left: 40px
+     }
+     .l3{
+        margin-right: 10px;
+         margin-left: 40px
+     }
+     .l4{
+        margin-right: 8px;
+         margin-left: 40px 
+     }
+     .minor{
+        margin-right: 10px;
+        margin-left: 40px 
+     }
+    }
+.opa {
+    opacity: 0.5;
+}
+.reHost{
+    margin-Right: 4rem
+}
+.refactor{
+    margin-Right: 8.7rem
+}
+.rearc{
+    margin-Right: 8.6rem
+}
+.applicable {
+    margin-right: 2rem;
+    padding-left: 6px;
+}
+
+
+
+.breadCrumbCloud {
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 32px;
+}
+
+.opa,
+.opaEnable {
+    margin-top: 1rem;
+    svg {
+        margin-bottom: -3px;
+    }
+
+    p {
+        font-size: 12px;
+        font-weight: bold;
+        margin-top: 0.8%;
+    }
+    .optional{
+        flex-Direction: "row";
+         font-Size: "12px";
+          margin-Bottom: "15px" 
+    }
+    .blendUpper{
+        font-Weight: bold;
+         font-size: "12px";
+          padding-right: "2px"
+    }
+}
+ 
+.clientclouddescrip {
+    font-size: 14px !important;
+    color: #565656;
+    font-weight: bold;
+    letter-spacing: 0.16px !important;
+    padding-left: 20px;
+    line-height: 18px !important;
+  
+}
+.blendPer{
+    font-Size: 14px;
+    font-weight: bold;
+      margin-Bottom: 1rem;
+      margin-left: 1rem;
+}
+
+.Clientcloudpara {
+    display: flex;
+    margin-left: 95%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    color: #0F62FE;
+    letter-spacing: 0.16px;
+    line-height: 18px;
+    svg{
+        fill:#0F62FE !important
+    }
+}
+
+.CloudClienaccord{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    span:last-child {
+        span{
+            margin-right: 0rem !important;
+        }   
+      }
+      
+     
+      .minorBlend{
+        // display:inline-block;
+        margin-Bottom: 8px;
+        // padding-left: 4%;
+        font-size: 20px;
+        // margin-left: -15px;
+        // margin-left: -21px;
+      }
+      .englishData{
+        margin-Right: 3rem;
+        display:inline-block;
+        font-size: 20px;
+        margin-Bottom: 8px;
+
+        
+      }
+    
+}
+.borderLine{
+    // display: inline-block;
+    // border-right: 2px solid #E0E0E0;
+    // height:1.5rem;
+    // margin-bottom: -1rem;
+    // margin-left: 2rem;        
+
+    border-right: 2px solid #E0E0E0;
+    height: 1.5rem;        
+    margin: 10px 0;
+}
+.borderLine1{
+    display: inline-block;
+    height:1.5rem;
+    margin-bottom: -1rem;
+    margin-left: 2rem;
+}
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+  }
+  .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #f00;
+    
+  }
+  .bx--accordion__arrow1 {
+    outline: 2px solid transparent;
+    outline-offset: -2px;
+    flex: 0 0 1rem;
+    width: 1rem;
+    height: 1rem;
+    margin: 2px 1rem 0 0;
+    transform: rotate(
+90deg
+);
+    transition: all 110ms cubic-bezier(0.2, 0, 0.38, 0.9);
+    fill: #161616;
+  }
+
+  .table{
+      display: flex;
+      flex-direction: column;
+  }
+// .borderLine:last-of-type {
+//     border-right: none!important;
+//   }
+.checkRight{
+    fill: #42BE65 ;
+    margin-right: 4%;
+}
+
+.checkWarning{
+    margin-right: 4%;
+    margin-bottom: -3px;
+    margin-left: 10%;
+}
+.cloudAppOpps{
+    padding-bottom: 36px;
+    margin-left: -0.1rem;
+}
+.clientCloudDiv{
+    .bx--accordion__content{
+        padding-right: 0px;
+        padding-left: 0rem;
+    }
+
+    .bx--data-table thead 
+    {
+        th:first-of-type{
+      background-color: #FFFFFF;
+        }
+    }
+    margin-left: 2rem;
+    margin-right: 2rem;
+    // margin-bottom: 36px;
+    background: #ffffff;
+    .clientInner{
+        margin-Left:0.4rem;
+        .sub-head{
+            margin-bottom: 2% ;
+            margin-left: 1%;
+            padding-top: 1%;
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+}
+// .breadCrumbgeneral {
+//     display: flex;
+//     padding-top: 1rem;
+//     margin-bottom: 0.5rem;
+//     margin-left: 2rem;
+// }
+// .generalInput {
+//     height: 86.7%;
+//     background: #f4f4f4;
+// }
+
+.moreless{
+    font-size: 12px;
+    color: #0F62FE ;
+}
+.moretext{
+    font-size: 12px;
+}
+.accordianAll{
+    .arrow{
+        margin-left: 11px;
+    }
+    .expandAll{
+        padding-left: 0%;
+    }
+}
+// .accordianAll {
+//     display: "flex";
+//     // flex-direction: row;
+//     margin-bottom: 0.4%;
+//     margin-top:0.3%;
+//     margin-left: 70%;
+//     color: #0f62fe;
+//     // margin-right: 10rem;
+//     svg {
+//         fill: #0f62fe !important;
+//     }
+// }
+.innertext{
+    font-size: 0.75rem;
+}
+.fieldrow{
+    padding-left: 0.01rem;
+}
+
+.CloudAppsTable {
+overflow: auto;
+font-size: 14px;
+    .bx--text-input {
+        border-bottom: none !important;
+    }
+
+    .bx--data-table td {
+        border-top: none !important;
+        border-bottom: none !important;
+    }
+
+  
+    td{
+        background-color: #FFFFFF !important;  
+        border-bottom: none !important;
+        border-top: none !important;
+        }
+        .bx--data-table-container {
+            width: auto !important;
+            margin-left: 53.5px !important;
+            margin-right:4rem !important;
+            margin-top: 0 !important;
+        }
+        .accordianAll{
+            margin-right: 0;
+        }
+        margin-left: auto;
+        display:flex;
+    margin-right: 0rem;
+    background: #ffffff;
+    padding-bottom: 1rem;
+
+    .heading {
+        margin-bottom: 2rem;
+    }
+
+    .headingStart {
+        background-color: #ffffff;
+    }
+
+    .iconRow {
+        // svg {
+        //     fill: #42BE65;
+        // }
+
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+        display: inline-block;
+        padding-top: 75% !important;
+    }
+
+    .labelrow {
+        width: 30%;
+        padding-top: 1rem;
+        padding-left: 0rem !important;
+
+        h6 {
+            font-size: 14px;
+            color: #000000;
+            letter-spacing: 0;
+            margin-bottom: 8px;
+        }
+
+        p {
+            font-size: 12px;
+            color: #161616;
+            letter-spacing: 0.32px;
+            // text-align: center;
+            line-height: 16px;
+
+            svg {
+                margin-right: 4px;
+                margin-bottom: -2px;
+            }
+        }
+        .igniteInfo{
+            color: #FF832B;
+        }
+
+        a {
+            font-size: 12px;
+        }
+
+    }
+
+   
+
+    tr {
+        background-color: #ffff;
+
+        td:last-of-type {
+            width: 16%;
+        }
+    }
+
+    .bx--data-table tbody tr:hover td,
+    .bx--data-table tbody tr:hover th {
+        background: #ffffff !important;
+    }
+
+    .bx--data-table tbody tr:hover {
+        background: #ffffff !important;
+    }
+
+    .nonEdtible-class {
+        text-align: left;
+    }
+.clientCloudPara{
+    display: flex;
+    margin-left: 81%;
+    color: #0F62FE ;
+    .space{
+        display: flex;
+        color: #0F62FE ;
+    }
+    .arrow{
+        margin-left:0.4%
+    }
+    svg{
+        fill:#0F62FE !important
+    }
+}
+  
+}
+
+.space{
+    padding-bottom: 3%;
+    padding-left: 0.5%;
+    
+}.blend-per{
+    font-size: 20px !important;
+}
+.bx--accordion__item{
+    list-style: none;
+}
+.break{
+    padding-top: 50px;
+}
+.blen-content{
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    margin: 0 30px;
+    justify-content: space-between;
+    height: 32px;
+}
+.d-flex{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.refractorContent{
+    display: flex;
+    flex-direction: row;
+    margin-left: -1.2rem;
+}
+.refractorContentPercentage{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 1.4rem 1rem 1.2rem;
+    justify-content: space-between;
+    span{
+        margin-top: 0.8rem;
+    }
+}

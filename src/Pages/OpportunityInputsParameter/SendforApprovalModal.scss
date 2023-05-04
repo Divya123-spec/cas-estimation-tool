@@ -1,0 +1,34 @@
+.bx--modal-footer{
+    width: 100%;
+}
+
+.approvalPopup .bx--modal-container{
+    width: 512px   !important ;
+    margin-left:initial !important;
+    height: 300px;
+}
+.approvalPopup .bx--modal-content{
+    position: relative;
+    width: 480px;
+    padding: 0;
+    margin:0;
+    overflow-x: hidden;
+}
+.approvalPopup .bx--modal-content .bx--form-item{
+    position: relative;
+    float: right;
+    width: 460px;
+    right: initial;
+}
+
+.approvalPopup .bx--form-item .bx--form__helper-text{
+    position: relative;
+    left: 92%;
+    top: -112px
+}
+.bx--modal-container{
+    margin-left:initial !important;
+}
+// .approvalPopup textarea{
+//     border: 1px solid #000000  !important;
+// }

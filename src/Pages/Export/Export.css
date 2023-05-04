@@ -1,0 +1,333 @@
+#export{
+    width: 770px;
+}
+#export table{
+    width: 100%;
+}
+#export table tr td {
+    padding: 10px;
+}
+#export ol ol {
+    margin-left: 20px;
+}
+.trHeader{
+    background-color: lightgray;
+}
+#export .heading{
+    font-family: IBMPlexSans-SemiBold;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+#export .heading5{
+    /* font-weight: bold; */
+    font-size: 12px;    
+}
+
+#export .heading1{
+    font-family: IBMPlexSans-SemiBold;
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 18px;
+    font-weight: 600;
+}
+#export .heading2{
+    font-family: IBMPlexSans-SemiBold;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 18px;
+    font-weight: 600;
+}
+#export .heading3{
+    font-family: IBMPlexSans-SemiBold;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 18px;
+    font-weight: 600;
+}
+#export .toc{
+    font-family: IBMPlexSans-SemiBold;
+font-size: 14px;
+color: #565656;
+letter-spacing: 0.16px;
+line-height: 40px;
+font-weight: 600;
+}
+
+#export .toc li {
+    font-family: IBMPlexSans;
+font-size: 14px;
+color: #161616;
+letter-spacing: 0.16px;
+line-height: 30px;
+font-weight: 400;
+}
+.numericOl > li{
+    list-style:outside;
+    list-style-type: decimal;
+    line-height: 40px;
+    margin-left:32px ;
+    position: relative;
+    width: 80%;
+}
+.alphabeticOL li {
+    list-style:inside;
+    list-style-type: lower-alpha !important;
+    width: 100%;
+    align-self: center;
+    color: #161616;
+    letter-spacing: 0.16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.page{
+    /* padding-left: 32px;
+    width: 49rem; */
+    margin:32px;
+    font-family: IBMPlexSans;
+    font-size: 14px;
+    color: #161616;
+    letter-spacing: 0.16px;
+    line-height: 18px;
+    font-weight: 400;
+    /* height: 850px; */
+    /* width: 600px; */
+    /* min-height: 850px; */
+    /* border: 1px solid black; */
+}
+#page5,#page7,#page8,#page9{
+    margin-top: 10px;
+}
+
+#page7A{
+    font-size: 10px;
+    
+}
+#page16A{
+    font-size: 11px;
+    
+}
+#page12{
+    font-size: 8px;
+  
+}
+
+
+#page10{
+    margin-top: 10px;
+    /* padding-bottom: 200px; */
+    line-height: 10px;
+}
+
+#page11{
+    margin-top: 10px;
+    /* padding-bottom: 200px; */
+    /* line-height: 10px; */
+}
+#page15{
+    margin-top: 10px;
+}
+#page17{
+    margin-top:-10px;
+    min-height: 700px;
+    /* border: 1px solid black; */
+}
+#page6 {
+    /* overflow: scroll; */
+    padding-top: 25px;
+    width: 750px;
+    height: 900px;
+    font-size: 11px;
+    line-height: 10px;
+}
+#page6 table tr td{
+    padding:7px;
+}
+#page18 {
+    font-size:6.5px;
+}
+#page18 table tr td{
+    padding:3px;
+}
+#page18A {
+    font-size:6px;
+}
+#page18A table tr td{
+    padding:3px;
+}
+
+
+#page12A {
+    /* overflow: scroll; */
+    /* padding-top: 25px; */
+    /* width: 750px;
+    height: 900px; */
+    font-size: 8px;
+    /* line-height: 10px; */
+}
+#page12A table tr td{
+    padding:7px;
+}
+
+
+
+.page > div{
+    /* margin:32px; */
+    width: 90%;
+    height: 90%;
+}
+.pdf_tickmark-class {
+    color: #42BE65;
+    float: right;
+    margin-right:-42px ;
+    position: relative;
+}
+
+
+.pdf_warning-class {
+    color: #FFBF00;
+    float: right;
+    margin-right:-42px ;
+    position: relative;
+}
+.hide{
+    display: none;
+}
+.pdf_info-class{
+    float: right;
+    margin-right:-40px;
+    position: relative;
+}
+.borderBottom1px{
+    border-bottom: 1px solid black;
+}
+
+.borderRight1px td {
+    border-right: 1px solid black;
+}
+
+.borderRight1px td:last-child {
+    border-right: none;
+}
+.basicInfoTable,.minorVLSrTable,.automationTable,.securityTable,.amsCalculations,.deploymentModelTable {
+    line-height: 12px;
+}
+.basicInfoTable,.minorVLSrTable,.automationTable,.securityTable,.amsCalculations,.deploymentModelTable .heading{
+    line-height: 12px;
+}
+.amsCalculations tr td{
+    padding: 7px !important;
+}
+.allcaps{
+    text-transform: uppercase;
+}
+.allcaps2{
+    text-transform: capitalize;
+}
+.tableSuccess{
+    color: green;
+}
+.tableWarning{
+    color: orange;
+}
+.warningMessage{
+    color: orange;
+    position: relative;
+    align-self: baseline;
+    font-size: 11px;
+}
+.iconDiv{
+    width:5%;
+    height: 100%;
+    float: left;
+}
+
+.messageDiv{
+    width: 90%;
+    float: right;
+    height: 100%;
+}
+
+
+.smallFont{
+font-size: 12px;
+}
+.colorOrange{
+    color:  #FFBF00;
+}
+.colorGreen{
+    color:#42BE65;
+}
+.padding5px{
+    padding: 5px;
+}
+.width100{
+width: 100%;
+}
+
+#export .aligncontents{
+    
+       text-align: center;
+    
+}
+
+#export .aligncontents3{
+  
+    padding-left: 10rem;
+ 
+}
+#export .notesfont{
+  
+   font-size: 12px;
+ 
+}
+
+
+#export .borderbottomClass{
+   
+        border-bottom: 1px solid #080707 ;
+    }
+
+    #export .BorderClass{
+        border-right: 1px solid #D6D6D6;
+}
+
+#export .midHeader{
+    background: #F4F4F4 !important;
+}
+
+#export .tableBold{
+    font-weight: bold;
+}
+
+#export .otherHeader{
+    background: #e0e0e0 !important;
+}
+    
+#export .RowColor{
+    background: #F4F4F4 !important;
+}
+
+.tableWarning2{
+    color: orange;
+
+        content: "";
+        border-left: 4px solid #FFBF00;
+        padding: 0.7rem 0 1.1rem 0;
+      
+    }
+
+     .tdHeaderNew{
+        position: relative;
+    }
+ .iconDiv2{
+    position: absolute;
+    top: 30%;
+    right: 0px;
+    }

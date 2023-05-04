@@ -1,0 +1,16 @@
+.errorPage {
+    position: absolute;
+    top: 14%;
+    left: 3%;
+    display: flex;
+
+    svg {
+        width: 92px;
+        height: 92px;
+    }
+
+    p {
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+}

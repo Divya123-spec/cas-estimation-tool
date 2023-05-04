@@ -1,0 +1,47 @@
+
+//********* jira- CMIWET-748 **********
+// As a  part of the vulnerability fixes we got additional toolbar in UI we can hide tool bar totally
+// But as the part of requiremnt we are enabling the zoom in and out functionality we are hiding other two buttons in the tool bar
+
+.bx--cc--toolbar{
+
+.bx--overflow-menu:nth-of-type(2n) {
+    display:none !important;
+ 
+}
+
+// .bx--overflow-menu__trigger{
+//     // margin-right:50px
+//     position: absolute;
+//     top: 20px;
+//     right: 20px;
+// }
+}
+//********* jira- CMIWET-748 **********
+// css written for placing the zoom in and our button for the graphs whre its hiding the csv download button
+
+.Effortdisttech{
+    .bx--overflow-menu__trigger{
+    // margin-right:50px
+    position: absolute;
+       right: 50px;
+}
+}
+
+.Productivity{
+    .bx--overflow-menu__trigger{
+        // margin-right:50px
+        position: absolute;
+        right: 50px;
+    }
+}   
+//********* jira- CMIWET-748 **********
+//for adjusting the title postion of the while part od the vulnerability fixes 
+
+//for Day 1 Complexity Distribution graph adjusting the title postion
+
+.Effortdisttech{
+    .bx--cc--title{
+    margin-bottom: 14px;
+    }
+}

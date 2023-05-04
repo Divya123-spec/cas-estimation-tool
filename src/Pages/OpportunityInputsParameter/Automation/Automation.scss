@@ -1,0 +1,131 @@
+.securityInput {
+    padding: 19px 0 19px 32.1px;
+}
+.automationInputMainHead {
+    background: #F4F4F4;
+    padding-bottom: 2rem;
+}
+.automationInputMain {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background: #FFFFFF;
+    padding-bottom: 1rem;
+    .bx--select-input:disabled{
+        border-bottom-color: #161616;
+    }
+.slectcombinationTool{
+    margin-left: 9px;
+.bx--label{
+    width: 12rem;
+    font-size: 12px;
+    font-weight: 600;
+}
+}
+    .heading {
+        margin-bottom: 2rem;
+    }
+    .helpertextVal{
+        p{
+            font-size: 12px;
+        }
+    }
+    .bx--form-item{
+        width: 11rem;
+    }
+    .headingStart {
+        background-color: #FFFFFF;
+    }
+    .iconRow {
+        // svg {
+        //     fill: #42BE65;
+        // }
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+        display: inline-block;
+        padding-top: 35% !important;
+    }
+    .labelrow {
+        width: 30%;
+        padding-top: 1rem;
+        padding-left: 0rem !important;
+        h6 {
+            font-size: 14px;
+            color: #000000;
+            letter-spacing: 0;
+            margin-bottom: 8px;
+        }
+        p {
+            font-size: 12px;
+            color: #161616;
+            letter-spacing: 0.32px;
+            line-height: 16px;
+            svg {
+                margin-right: 4px;
+                margin-bottom: -2px;
+            }
+        }
+        a {
+            font-size: 12px;
+        }
+    }
+    .bx--data-table-container {
+        width: auto !important;
+        margin-left: 0px !important;
+        margin-right: 1.8rem !important;
+        margin-top: 0 !important;
+    }
+    .bx--data-table tbody tr:hover td,
+    .bx--data-table tbody tr:hover th {
+        background: #FFFFFF !important;
+    }
+    .bx--data-table tbody tr:hover {
+        background: #FFFFFF !important;
+    }
+    tr {
+        background-color: #ffff;
+        td:last-of-type {
+            width: 16%;
+        }
+    }
+    .nonEdtible-class {
+        text-align: left;
+    }
+    .Accordion-class{
+        padding-right: 1rem;
+    }
+    .Accordion-class5{
+        padding-left: 2rem;
+        padding-right: 1rem;
+    }
+    .Accordion-class3{
+        padding-left: 2rem;
+        padding-right: 1rem;
+        .blueprisim{
+            .bx--data-table-container{
+                margin-right: -0.2rem !important;
+            }
+        }
+        .iconRow2{
+            padding-left: 0rem !important;
+            padding-right: 0rem !important;
+            display: inline-block;
+            padding-top: 50% !important;
+        }
+        .blueprisimautomation{
+            padding-right: 20rem !important;
+        }
+        .slectcombinationTool{
+            .SelectClass{
+                width: 12rem;
+            }
+        }
+    }
+}
+.RowSpace{
+    height: 1.2rem !important;
+}
+.automationatble{
+    .bx--form-item{
+        width: 6rem;
+    }
+}
